@@ -1,38 +1,62 @@
 .App {
+  text-align: left;
+}
+.jumbotron{
+  background: rgb(77,14,9) !important;
+  background: linear-gradient(28deg, rgba(77,14,9,1) 0%, rgba(194,40,29,1) 46%, rgba(244,67,54,1) 100%) !important;
+  color: white !important;
+  border-radius: 0px !important;
+}
+.movy-filter-section{
+  width: 90%;
+}
+.movy-list-container{
+  width: 90%;
+  padding: auto;
+  margin-top: 28px !important;
+}
+.movy-item{
+  border-radius: 8px;
+  box-shadow: -1px 3px 6px #000000C9;
+  margin: auto;
+  width: 98% !important;
+  padding: 4px;
+  padding-top: 20px;
+  height: 150px;
+  margin-bottom: 12px;
+}
+.movy-item .movy-title-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: #f44336;
+  color: white;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.movy-item .movy-title{
+  font-weight: bold;
+  font-size: 16px;  
+  margin-left: 8px;
+  display: inline-block;
+  height: 24px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.movy-item .movy-category{
+  display: inline-block;
+  height: 24px;
+  margin-left: 8px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fa{
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.fa:hover{
+  color: #f44336;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete-button{
+  float: right;
+}
+.text-align-center{
+  text-align: center !important;
 }
