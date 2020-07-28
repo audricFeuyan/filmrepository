@@ -226,7 +226,7 @@ class App extends Component{
 
     let moviesList = this.state.filterPaginatedSelection.map((item, index) => {
       return (
-          <Col sm={3} key={index}>
+          <Col xs={12} sm={6} md={4} key={index}>
             <div className="movy-item">
               <Row className="m-0">
                 <span className="movy-title-icon">{item.title.charAt(0)}</span>
